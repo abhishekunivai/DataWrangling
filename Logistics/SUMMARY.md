@@ -1,0 +1,1 @@
+Our method in this course is to imitate real world scenarios in working on data science problems. Thus you must learn how to use version control, to collaborate using forums, and to run code on your own machine.

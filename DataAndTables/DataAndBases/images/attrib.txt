@@ -1,0 +1,3 @@
+scales.png:S. S. Stevens, Science, New Series, Vol. 103, No. 2684 (Jun. 7, 1946), pp. 677-680
+UNSW2.png:https://studyonline.unsw.edu.au/blog/types-of-data
+oneimage_tensor.jpeg:https://www.experfy.com/blog/ai-ml/learning-ai-if-you-suck-at-math-part4-tensors-illustrated-with-cats/

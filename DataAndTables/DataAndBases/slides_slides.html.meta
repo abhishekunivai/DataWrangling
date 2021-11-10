@@ -1,0 +1,9 @@
+- type: types
+  data:
+  - img
+- type: slide-pages
+  data:
+  - 0
+  - 3
+  - 5
+  - 28

@@ -1,0 +1,37 @@
+name: Deploy to Content System-Staging
+# Controls when the action will run.
+on:
+  # Triggers the workflow on push or pull request events but only for the master branch
+  push:
+    branches: [staging]
+
+# A workflow run is made up of one or more jobs that can run sequentially or in parallel
+jobs:
+  # This workflow contains a single job called "build"
+  deploy:
+    name: Do deploy
+    # The type of runner that the job will run on
+    runs-on: ubuntu-latest
+    # Steps represent a sequence of tasks that will be executed as part of the job
+    steps:
+      - name: Deploy content to system
+        # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
+        uses: appleboy/ssh-action@master
+        env:
+          COURSE: ${{ github.event.repository.name }}
+          BRANCH: "staging"
+        with:
+          host: ${{ secrets.STAGING_IP }}
+          username: univai
+          key: ${{ secrets.DEPLOY_KEY }}
+          port: 22
+          envs: COURSE,BRANCH
+          script: |
+            cd content
+            if [ -d "$COURSE" ]; then
+              cd $COURSE
+              git checkout .
+              git pull origin $BRANCH
+            else
+              git clone -b $BRANCH git@github.com:univ-ai-deploy/$COURSE.git
+            fi

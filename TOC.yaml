@@ -12,27 +12,36 @@
     - id: 576418d7-0d87-4e57-b318-f34119bb8015
       uri: DW_Exercises/GettingStarted/whatsthis.md
       type: intro
-
-  downloadPaths:
-    - title: First Lecture Exercise Data Wrangling
-      uri: DW_Exercises/Data_Wrangling_1.ipynb
-      type: ipynb
-    - title: Second Lecture Exercise Data Wrangling
+    - id: 92a16bb6-b48d-4e10-a591-ccfe79c2190f
+      title: First Lecture Exercise Data Wrangling
+      uri: DW_Exercises/Data_Wrangling_1.md
+      type: md
+    - id: 3ce9a24d-2871-45ed-afcf-aa490e44ff80
+      title: Second Lecture Exercise Data Wrangling
       uri: DW_Exercises/Data_Wrangling_2.ipynb
-      type: ipynb
-    - title: Third Lecture Exercise Data Wrangling
+      type: md
+    - id: 8d911757-b729-441b-8b47-3deec93ec552
+      title: Third Lecture Exercise Data Wrangling
       uri: DW_Exercises/Interacting_with_HTML_and_Web_APIs.ipynb
-      type: ipynb
-    - title: Fourth Lecture Exercise Data Wrangling
+      type: md
+    - id: dd91ea42-cd99-4bac-addc-bc1800ff8dd0
+      title: Fourth Lecture Exercise Data Wrangling
       uri: DW_Exercises/Interacting_with_Databases.ipynb
-      type: ipynb
-    - title: Fifth Lecture Exercise Data Wrangling
+      type: md
+    - id: dd91ea42-cd99-4bac-addc-bc1800ff8dd0
+      title: Fifth Lecture Exercise Data Wrangling
       uri: DW_Exercises/Combining_and_Merging.ipynb
-      type: ipynb
-    - title: Sixth Lecture Exercise Data Wrangling
+      type: md
+    - id: dd91ea42-cd99-4bac-addc-bc1800ff8dd0
+      title: Sixth Lecture Exercise Data Wrangling
+      uri: DW_Exercises/Interacting_with_Databases.ipynb
+      type: md
+    - id: dd91ea42-cd99-4bac-addc-bc1800ff8dd0
+      title: Seventh Lecture Exercise Data Wrangling
       uri: DW_Exercises/L3_Data_Transformation.ipynb
-      type: ipynb
-    - title: Seventh Lecture Exercise Data Wrangling
+      type: md
+    - id: dd91ea42-cd99-4bac-addc-bc1800ff8dd0
+      title: Eighth Lecture Exercise Data Wrangling
       uri: DW_Exercises/String_Manipulation.ipynb
-      type: ipynb
+      type: md
   ix: '1'

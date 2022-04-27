@@ -1,1 +1,0 @@
-The logistics for the ML1-C1 course

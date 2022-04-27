@@ -1,1 +1,0 @@
-This part of the course is about tabular data: data that goes into tables such as spreadsheets and databases, and data that goes into arrays. We learn how a common Tabular Data Model is used in multiple systems including SQL and Pandas. An understanding of its verbs allows us to learn other data systems, while being able to efficiently wrangle our data

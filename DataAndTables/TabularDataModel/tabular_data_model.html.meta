@@ -1,9 +1,0 @@
-- type: anchor-tags
-  data:
-  - the-tabular-data-model
-  - the-grammar-of-data
-  - query
-  - group-agg
-  - creation-and-alteration
-  - populate-with-sql-insert
-  - create-new-columns-with-assign

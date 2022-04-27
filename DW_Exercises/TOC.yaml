@@ -1,0 +1,18 @@
+- type: breadcrumb
+  crumbs:
+    - title: ml1-DW
+      uri: ml1-DW/
+    - title: Data Wrangling
+      uri: DW_Exercises/
+- title: Getting Started
+  description: Getting Started
+  uri: GettingStarted/
+  showDiscourse: true
+  downloadPaths:
+    - uri: GettingStarted/Data_Wrangling_1.pdf
+      text: Notebook
+  sections:
+    - id: abcb7890-85b4-48e8-ba3d-3ee944fb5687
+      uri: GettingStarted/slides_slides.html
+      type: slide
+  ix: '1.1'

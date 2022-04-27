@@ -1,103 +1,38 @@
 - id: 906c2658-de40-4d51-b87c-cd7146371a7b
   type: about
   uri: README.md
-- title: Logistics
-  description: Logistics for the ml1-c1 course
-  uri: Logistics/
+- title: Data Wrangling
+  description: Data Wrangling course
+  uri: DW_Exercises/
   showDiscourse: true
   layout: tab
   sections:
     - id: 92a16bb6-b48d-4e40-a581-ccfe79c2190e
       header: GettingStarted
     - id: 576418d7-0d87-4e57-b318-f34119bb8015
-      uri: Logistics/GettingStarted/whatsthis.md
+      uri: DW_Exercises/GettingStarted/whatsthis.md
       type: intro
-    - id: 3ce9a24d-2871-45ed-afcf-aa490e44ff80
-      title: Slides
-      uri: Logistics/GettingStarted/slides_slides.md
-      type: slide
-    - id: 8d911757-b729-441b-8b47-3deec93ec552
-      title: Getting Started
-      uri: Logistics/GettingStarted/getting_started.md
-      type: md
-    - id: dd91ea42-cd99-4bac-addc-bc1800ff8dd0
-      title: Do This Before Lab 1
-      uri: Logistics/GettingStarted/do_this_before_lab_1.md
-      type: md
-    - id: 5f41241f-73b5-47ac-8e66-95649b716edf
-      uri: Logistics/GettingStarted/SUMMARY.md
-      type: summary
+
   downloadPaths:
-    - title: Distribute Do This Before Lab 1
-      uri: Logistics/GettingStarted/distribute_do_this_before_lab_1.ipynb
+    - title: First Lecture Exercise Data Wrangling
+      uri: DW_Exercises/Data_Wrangling_1.ipynb
       type: ipynb
-    - title: Do This Before Lab 1
-      uri: Logistics/GettingStarted/do_this_before_lab_1.ipynb
+    - title: Second Lecture Exercise Data Wrangling
+      uri: DW_Exercises/Data_Wrangling_2.ipynb
+      type: ipynb
+    - title: Third Lecture Exercise Data Wrangling
+      uri: DW_Exercises/Interacting_with_HTML_and_Web_APIs.ipynb
+      type: ipynb
+    - title: Fourth Lecture Exercise Data Wrangling
+      uri: DW_Exercises/Interacting_with_Databases.ipynb
+      type: ipynb
+    - title: Fifth Lecture Exercise Data Wrangling
+      uri: DW_Exercises/Combining_and_Merging.ipynb
+      type: ipynb
+    - title: Sixth Lecture Exercise Data Wrangling
+      uri: DW_Exercises/L3_Data_Transformation.ipynb
+      type: ipynb
+    - title: Seventh Lecture Exercise Data Wrangling
+      uri: DW_Exercises/String_Manipulation.ipynb
       type: ipynb
   ix: '1'
-- title: Data And Tables
-  description: Data Types and Representations. The tabular data model and Databases.
-  uri: DataAndTables/
-  showDiscourse: true
-  layout: tab
-  sections:
-    - id: 70ac1cdc-a84e-4340-9ff2-23d70b7de89b
-      header: DataAndBases
-    - id: 8fb82d5a-6982-4cbe-8f19-e019c5a3d899
-      uri: DataAndTables/DataAndBases/whatsthis.md
-      type: intro
-    - id: 550d886b-ce28-4de4-bbca-2e9b27ce0b04
-      title: Slides
-      uri: DataAndTables/DataAndBases/slides_slides.md
-      type: slide
-    - id: 9d73de02-475f-40b8-bd48-fb8c8255925c
-      title: Data And Bases
-      uri: DataAndTables/DataAndBases/data_and_bases.md
-      type: md
-    - id: d89b8e48-2e1f-49ba-a63d-0b6871f9c1c1
-      uri: DataAndTables/DataAndBases/random_exercise
-      exerciseId: 614387ffe968846909483544
-      title: Random Exercise
-      type: exercise
-    - id: 0feaf4e8-000d-4147-bb16-0a8b09267f98
-      uri: DataAndTables/DataAndBases/code_exercise
-      exerciseId: 6144508f9de60cff38ef614b
-      title: Code Exercise
-      type: exercise
-    - id: 3aa896f9-40ef-4764-b181-8ae579361290
-      header: TabularDataModel
-    - id: c33437d6-fb30-4390-954b-41a1d0c4a22e
-      title: Pandas And Sql
-      uri: DataAndTables/TabularDataModel/pandas_and_sql.md
-      type: md
-    - id: c5dbd5d5-a54b-46c3-b692-546348c1be23
-      title: Slides
-      uri: DataAndTables/TabularDataModel/slides_slides.md
-      type: slide
-    - id: 5e14836f-09ed-4f47-9a5c-54e550fbfee3
-      title: Tabular Data Model
-      uri: DataAndTables/TabularDataModel/tabular_data_model.md
-      type: md
-    - id: b4f1e637-78c8-4df8-b57b-0e087e37ea8f
-      uri: DataAndTables/TabularDataModel/SUMMARY.md
-      type: summary
-  downloadPaths:
-    - title: Data And Bases
-      uri: DataAndTables/DataAndBases/data_and_bases.ipynb
-      type: ipynb
-    - title: Distribute Data And Bases
-      uri: DataAndTables/DataAndBases/distribute_data_and_bases.ipynb
-      type: ipynb
-    - title: Distribute Pandas And Sql
-      uri: DataAndTables/TabularDataModel/distribute_pandas_and_sql.ipynb
-      type: ipynb
-    - title: Distribute Tabular Data Model
-      uri: DataAndTables/TabularDataModel/distribute_tabular_data_model.ipynb
-      type: ipynb
-    - title: Pandas And Sql
-      uri: DataAndTables/TabularDataModel/pandas_and_sql.ipynb
-      type: ipynb
-    - title: Tabular Data Model
-      uri: DataAndTables/TabularDataModel/tabular_data_model.ipynb
-      type: ipynb
-  ix: '2'
